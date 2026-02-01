@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "args": "output.png" 
+        },
+        {
+            "type": "java",
+            "name": "RayTracer",
+            "request": "launch",
+            "mainClass": "com.avikdas.raytracer.RayTracer",
+            "projectName": "build-your-own-raytracer-java",
+            "args": "output.png"
+        }
+    ]
+}
